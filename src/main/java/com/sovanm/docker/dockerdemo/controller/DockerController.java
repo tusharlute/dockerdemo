@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerController {
 
-	@GetMapping("/name")
+	@GetMapping("/java")
 	public String getMyName() {
 		
-		return "Simple Spring Boot Application";
+		return "Simple Spring Boot Application 2";
 	}
 }
